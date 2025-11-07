@@ -1,0 +1,53 @@
+
+
+set_property -dict {PACKAGE_PIN AB15 IOSTANDARD LVCMOS33} [get_ports adc_clk]
+set_property -dict {PACKAGE_PIN AA22 IOSTANDARD LVCMOS33} [get_ports {i_adc_data[0]}]
+set_property -dict {PACKAGE_PIN AB22 IOSTANDARD LVCMOS33} [get_ports {i_adc_data[1]}]
+set_property -dict {PACKAGE_PIN AA21 IOSTANDARD LVCMOS33} [get_ports {i_adc_data[2]}]
+set_property -dict {PACKAGE_PIN AB21 IOSTANDARD LVCMOS33} [get_ports {i_adc_data[3]}]
+set_property -dict {PACKAGE_PIN AB20 IOSTANDARD LVCMOS33} [get_ports {i_adc_data[4]}]
+set_property -dict {PACKAGE_PIN AB19 IOSTANDARD LVCMOS33} [get_ports {i_adc_data[5]}]
+set_property -dict {PACKAGE_PIN Y19 IOSTANDARD LVCMOS33} [get_ports {i_adc_data[6]}]
+set_property -dict {PACKAGE_PIN AA19 IOSTANDARD LVCMOS33} [get_ports {i_adc_data[7]}]
+set_property -dict {PACKAGE_PIN AA16 IOSTANDARD LVCMOS33} [get_ports {i_adc_data[8]}]
+set_property -dict {PACKAGE_PIN AB16 IOSTANDARD LVCMOS33} [get_ports {i_adc_data[9]}]
+
+set_property -dict {PACKAGE_PIN B17 IOSTANDARD LVCMOS33} [get_ports dac_clk_out]
+set_property -dict {PACKAGE_PIN E18 IOSTANDARD LVCMOS33} [get_ports {dac_data_out[0]}]
+set_property -dict {PACKAGE_PIN F18 IOSTANDARD LVCMOS33} [get_ports {dac_data_out[1]}]
+set_property -dict {PACKAGE_PIN F17 IOSTANDARD LVCMOS33} [get_ports {dac_data_out[2]}]
+set_property -dict {PACKAGE_PIN G17 IOSTANDARD LVCMOS33} [get_ports {dac_data_out[3]}]
+set_property -dict {PACKAGE_PIN C17 IOSTANDARD LVCMOS33} [get_ports {dac_data_out[4]}]
+set_property -dict {PACKAGE_PIN C18 IOSTANDARD LVCMOS33} [get_ports {dac_data_out[5]}]
+set_property -dict {PACKAGE_PIN G19 IOSTANDARD LVCMOS33} [get_ports {dac_data_out[6]}]
+set_property -dict {PACKAGE_PIN F19 IOSTANDARD LVCMOS33} [get_ports {dac_data_out[7]}]
+set_property -dict {PACKAGE_PIN E20 IOSTANDARD LVCMOS33} [get_ports {dac_data_out[8]}]
+set_property -dict {PACKAGE_PIN E19 IOSTANDARD LVCMOS33} [get_ports {dac_data_out[9]}]
+set_property -dict {PACKAGE_PIN D22 IOSTANDARD LVCMOS33} [get_ports {dac_data_out[10]}]
+set_property -dict {PACKAGE_PIN C22 IOSTANDARD LVCMOS33} [get_ports {dac_data_out[11]}]
+set_property -dict {PACKAGE_PIN B22 IOSTANDARD LVCMOS33} [get_ports {dac_data_out[12]}]
+set_property -dict {PACKAGE_PIN B21 IOSTANDARD LVCMOS33} [get_ports {dac_data_out[13]}]
+
+
+#set_property -dict {PACKAGE_PIN M19  IOSTANDARD LVCMOS33} [get_ports clk]
+#set_property -dict {PACKAGE_PIN K21  IOSTANDARD LVCMOS33} [get_ports resetn]
+#set_property -dict {PACKAGE_PIN M17  IOSTANDARD LVCMOS33} [get_ports uart_rxd]
+#set_property -dict {PACKAGE_PIN L17  IOSTANDARD LVCMOS33} [get_ports uart_txd]
+
+#create_clock -period 20.000 -name o_adc_clk [get_ports adc_clk]
+#create_clock -period 20.000 -name o_dac_clk [get_ports dac_clk_out]
+#set_input_delay -clock [get_clocks o_adc_clk] -max 35.8 [get_ports {i_adc_data[*]}]
+#set_input_delay -clock [get_clocks o_adc_clk] -min 5.4 [get_ports {i_adc_data[*]}]
+#set_output_delay -clock [get_clocks o_dac_clk] -max 3.800 [get_ports {dac_data_out[*]}]
+#set_output_delay -clock [get_clocks o_dac_clk] -min -0.800 [get_ports {dac_data_out[*]}]
+
+set_property IOSTANDARD LVCMOS33 [get_ports UART_0_0_rxd]
+set_property IOSTANDARD LVCMOS33 [get_ports UART_0_0_txd]
+set_property PACKAGE_PIN L17 [get_ports UART_0_0_txd]
+set_property PACKAGE_PIN M17 [get_ports UART_0_0_rxd]
+
+set_property IOSTANDARD LVCMOS33 [get_ports UART_1_0_rxd]
+set_property IOSTANDARD LVCMOS33 [get_ports UART_1_0_txd]
+set_property PACKAGE_PIN G15 [get_ports UART_1_0_txd]
+set_property PACKAGE_PIN G16 [get_ports UART_1_0_rxd]
+

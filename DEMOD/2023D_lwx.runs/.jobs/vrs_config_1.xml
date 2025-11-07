@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="cordic_atan4_synth_1" LaunchDir="/home/elysia/Software/Xilinx/Project/11-6/2023D_lwx.runs/cordic_atan4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_PSK_DM_0_0_synth_1" LaunchDir="/home/elysia/Software/Xilinx/Project/11-6/2023D_lwx.runs/design_1_PSK_DM_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="fir_lpf_psk_synth_1"/>
+		<Parent Id="mult_gen_psk_synth_1"/>
+	</Run>
+	<Run Id="design_1_ADC_3PA1030_0_1_synth_1" LaunchDir="/home/elysia/Software/Xilinx/Project/11-6/2023D_lwx.runs/design_1_ADC_3PA1030_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="cordic_ask_synth_1" LaunchDir="/home/elysia/Software/Xilinx/Project/11-6/2023D_lwx.runs/cordic_ask_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_ASK_DM_0_2_synth_1" LaunchDir="/home/elysia/Software/Xilinx/Project/11-6/2023D_lwx.runs/design_1_ASK_DM_0_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="cordic_ask_synth_1"/>
+	</Run>
+	<Run Id="cic_compiler_iq_synth_1" LaunchDir="/home/elysia/Software/Xilinx/Project/11-6/2023D_lwx.runs/cic_compiler_iq_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_FSK_DM_0_0_synth_1" LaunchDir="/home/elysia/Software/Xilinx/Project/11-6/2023D_lwx.runs/design_1_FSK_DM_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="cordic_atan4_synth_1"/>
+		<Parent Id="fir_lpf_fsk_synth_1"/>
+	</Run>
+	<Run Id="design_1_IQ_DDC_0_0_synth_1" LaunchDir="/home/elysia/Software/Xilinx/Project/11-6/2023D_lwx.runs/design_1_IQ_DDC_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="cic_compiler_iq_synth_1"/>
+	</Run>
+	<Run Id="design_1_DAC_904_0_0_synth_1" LaunchDir="/home/elysia/Software/Xilinx/Project/11-6/2023D_lwx.runs/design_1_DAC_904_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_processing_system7_0_0_synth_1" LaunchDir="/home/elysia/Software/Xilinx/Project/11-6/2023D_lwx.runs/design_1_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_waveform_measure_0_0_synth_1" LaunchDir="/home/elysia/Software/Xilinx/Project/11-6/2023D_lwx.runs/design_1_waveform_measure_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_waveform_measure_0_1_synth_1" LaunchDir="/home/elysia/Software/Xilinx/Project/11-6/2023D_lwx.runs/design_1_waveform_measure_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fir_lpf_psk_synth_1" LaunchDir="/home/elysia/Software/Xilinx/Project/11-6/2023D_lwx.runs/fir_lpf_psk_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_waveform_measure_0_2_synth_1" LaunchDir="/home/elysia/Software/Xilinx/Project/11-6/2023D_lwx.runs/design_1_waveform_measure_0_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mult_gen_psk_synth_1" LaunchDir="/home/elysia/Software/Xilinx/Project/11-6/2023D_lwx.runs/mult_gen_psk_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_rst_ps7_0_50M_0_synth_1" LaunchDir="/home/elysia/Software/Xilinx/Project/11-6/2023D_lwx.runs/design_1_rst_ps7_0_50M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_data_select_0_0_synth_1" LaunchDir="/home/elysia/Software/Xilinx/Project/11-6/2023D_lwx.runs/design_1_data_select_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_axi_gpio_0_1_synth_1" LaunchDir="/home/elysia/Software/Xilinx/Project/11-6/2023D_lwx.runs/design_1_axi_gpio_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fir_lpf_fsk_synth_1" LaunchDir="/home/elysia/Software/Xilinx/Project/11-6/2023D_lwx.runs/fir_lpf_fsk_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_axi_gpio_ask_0_1_synth_1" LaunchDir="/home/elysia/Software/Xilinx/Project/11-6/2023D_lwx.runs/design_1_axi_gpio_ask_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_axi_smc_0_synth_1" LaunchDir="/home/elysia/Software/Xilinx/Project/11-6/2023D_lwx.runs/design_1_axi_smc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_axi_gpio_ask_0_0_synth_1" LaunchDir="/home/elysia/Software/Xilinx/Project/11-6/2023D_lwx.runs/design_1_axi_gpio_ask_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_axi_gpio_0_0_synth_1" LaunchDir="/home/elysia/Software/Xilinx/Project/11-6/2023D_lwx.runs/design_1_axi_gpio_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="design_1_axi_gpio_ask_0_1_synth_1"/>
+	</Run>
+	<Run Id="design_1_axi_gpio_ask_0_2_synth_1" LaunchDir="/home/elysia/Software/Xilinx/Project/11-6/2023D_lwx.runs/design_1_axi_gpio_ask_0_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="design_1_axi_gpio_ask_0_0_synth_1"/>
+	</Run>
+	<Run Id="design_1_axi_gpio_ask_0_3_synth_1" LaunchDir="/home/elysia/Software/Xilinx/Project/11-6/2023D_lwx.runs/design_1_axi_gpio_ask_0_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="design_1_axi_gpio_ask_0_0_synth_1"/>
+	</Run>
+	<Run Id="synth_1" LaunchDir="/home/elysia/Software/Xilinx/Project/11-6/2023D_lwx.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="cordic_atan4_synth_1"/>
+		<Parent Id="design_1_PSK_DM_0_0_synth_1"/>
+		<Parent Id="design_1_ADC_3PA1030_0_1_synth_1"/>
+		<Parent Id="cordic_ask_synth_1"/>
+		<Parent Id="design_1_ASK_DM_0_2_synth_1"/>
+		<Parent Id="cic_compiler_iq_synth_1"/>
+		<Parent Id="design_1_FSK_DM_0_0_synth_1"/>
+		<Parent Id="design_1_IQ_DDC_0_0_synth_1"/>
+		<Parent Id="design_1_DAC_904_0_0_synth_1"/>
+		<Parent Id="design_1_processing_system7_0_0_synth_1"/>
+		<Parent Id="design_1_waveform_measure_0_0_synth_1"/>
+		<Parent Id="design_1_waveform_measure_0_1_synth_1"/>
+		<Parent Id="fir_lpf_psk_synth_1"/>
+		<Parent Id="design_1_waveform_measure_0_2_synth_1"/>
+		<Parent Id="mult_gen_psk_synth_1"/>
+		<Parent Id="design_1_rst_ps7_0_50M_0_synth_1"/>
+		<Parent Id="design_1_data_select_0_0_synth_1"/>
+		<Parent Id="design_1_axi_gpio_0_1_synth_1"/>
+		<Parent Id="fir_lpf_fsk_synth_1"/>
+		<Parent Id="design_1_axi_gpio_ask_0_1_synth_1"/>
+		<Parent Id="design_1_axi_smc_0_synth_1"/>
+		<Parent Id="design_1_axi_gpio_ask_0_0_synth_1"/>
+		<Parent Id="design_1_axi_gpio_0_0_synth_1"/>
+		<Parent Id="design_1_axi_gpio_ask_0_2_synth_1"/>
+		<Parent Id="design_1_axi_gpio_ask_0_3_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+		<Parameter Name="general.ignorePathLengthChecks" Val="true" Type="bool"/>
+		<Parameter Name="general.shortenLongPath" Val="true" Type="bool"/>
+	</Parameters>
+	<ProductInfo Name="vivado"/>
+</Runs>
+

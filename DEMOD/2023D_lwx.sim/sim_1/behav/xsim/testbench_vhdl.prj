@@ -1,0 +1,20 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../2023D_lwx.gen/sources_1/ip/fir_lpf_psk/sim/fir_lpf_psk.vhd" \
+"../../../../2023D_lwx.gen/sources_1/ip/mult_gen_psk/sim/mult_gen_psk.vhd" \
+"../../../../2023D_lwx.gen/sources_1/ip/fir_lpf_fsk/sim/fir_lpf_fsk.vhd" \
+"../../../../2023D_lwx.gen/sources_1/ip/cordic_atan4/sim/cordic_atan4.vhd" \
+"../../../../2023D_lwx.gen/sources_1/ip/cic_compiler_iq/sim/cic_compiler_iq.vhd" \
+"../../../../2023D_lwx.gen/sources_1/ip/cordic_ask/sim/cordic_ask.vhd" \
+"../../../../2023D_lwx.ip_user_files/bd/design_1/ip/design_1_axi_gpio_0_0/sim/design_1_axi_gpio_0_0.vhd" \
+"../../../../2023D_lwx.ip_user_files/bd/design_1/ip/design_1_axi_gpio_ask_0_0/sim/design_1_axi_gpio_ask_0_0.vhd" \
+"../../../../2023D_lwx.ip_user_files/bd/design_1/ip/design_1_axi_gpio_ask_0_1/sim/design_1_axi_gpio_ask_0_1.vhd" \
+"../../../../2023D_lwx.ip_user_files/bd/design_1/ip/design_1_axi_gpio_ask_0_2/sim/design_1_axi_gpio_ask_0_2.vhd" \
+"../../../../2023D_lwx.ip_user_files/bd/design_1/ip/design_1_axi_gpio_ask_0_3/sim/design_1_axi_gpio_ask_0_3.vhd" \
+"../../../../2023D_lwx.ip_user_files/bd/design_1/ip/design_1_rst_ps7_0_50M_0/sim/design_1_rst_ps7_0_50M_0.vhd" \
+"../../../../2023D_lwx.ip_user_files/bd/design_1/ip/design_1_axi_gpio_0_1/sim/design_1_axi_gpio_0_1.vhd" \
+"../../../../2023D_lwx.ip_user_files/bd/design_1/ip/design_1_axi_gpio_0_2/sim/design_1_axi_gpio_0_2.vhd" \
+"../../../../2023D_lwx.ip_user_files/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_1/sim/bd_6f02_psr_aclk_0.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,30 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elysia/Software/Xilinx/Project/11-6V3/2023D_lwx.gen/sources_1/ip/fir_lpf_psk/sim/fir_lpf_psk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fir_lpf_psk'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elysia/Software/Xilinx/Project/11-6V3/2023D_lwx.gen/sources_1/ip/mult_gen_psk/sim/mult_gen_psk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mult_gen_psk'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elysia/Software/Xilinx/Project/11-6V3/2023D_lwx.gen/sources_1/ip/fir_lpf_fsk/sim/fir_lpf_fsk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fir_lpf_fsk'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elysia/Software/Xilinx/Project/11-6V3/2023D_lwx.gen/sources_1/ip/cordic_atan4/sim/cordic_atan4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cordic_atan4'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elysia/Software/Xilinx/Project/11-6V3/2023D_lwx.gen/sources_1/ip/cic_compiler_iq/sim/cic_compiler_iq.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cic_compiler_iq'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elysia/Software/Xilinx/Project/11-6V3/2023D_lwx.gen/sources_1/ip/cordic_ask/sim/cordic_ask.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cordic_ask'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elysia/Software/Xilinx/Project/11-6V3/2023D_lwx.ip_user_files/bd/design_1/ip/design_1_axi_gpio_0_0/sim/design_1_axi_gpio_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_axi_gpio_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elysia/Software/Xilinx/Project/11-6V3/2023D_lwx.ip_user_files/bd/design_1/ip/design_1_axi_gpio_ask_0_0/sim/design_1_axi_gpio_ask_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_axi_gpio_ask_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elysia/Software/Xilinx/Project/11-6V3/2023D_lwx.ip_user_files/bd/design_1/ip/design_1_axi_gpio_ask_0_1/sim/design_1_axi_gpio_ask_0_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_axi_gpio_ask_0_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elysia/Software/Xilinx/Project/11-6V3/2023D_lwx.ip_user_files/bd/design_1/ip/design_1_axi_gpio_ask_0_2/sim/design_1_axi_gpio_ask_0_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_axi_gpio_ask_0_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elysia/Software/Xilinx/Project/11-6V3/2023D_lwx.ip_user_files/bd/design_1/ip/design_1_axi_gpio_ask_0_3/sim/design_1_axi_gpio_ask_0_3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_axi_gpio_ask_0_3'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elysia/Software/Xilinx/Project/11-6V3/2023D_lwx.ip_user_files/bd/design_1/ip/design_1_rst_ps7_0_50M_0/sim/design_1_rst_ps7_0_50M_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_rst_ps7_0_50M_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elysia/Software/Xilinx/Project/11-6V3/2023D_lwx.ip_user_files/bd/design_1/ip/design_1_axi_gpio_0_1/sim/design_1_axi_gpio_0_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_axi_gpio_0_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elysia/Software/Xilinx/Project/11-6V3/2023D_lwx.ip_user_files/bd/design_1/ip/design_1_axi_gpio_0_2/sim/design_1_axi_gpio_0_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_axi_gpio_0_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/elysia/Software/Xilinx/Project/11-6V3/2023D_lwx.ip_user_files/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_1/sim/bd_6f02_psr_aclk_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bd_6f02_psr_aclk_0'
